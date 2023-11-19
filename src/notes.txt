@@ -1,0 +1,9 @@
+Notes about the website design:
+The three.js things should have parallax.
+
+Skills:
+It would be cool to have skills that have
+balls that you can spin and have the logo
+of the language or platform.
+
+Small circles with the logo would also do.

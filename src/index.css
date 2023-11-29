@@ -27,6 +27,11 @@
   --color-contact-gray: #252934;
   --color-contact-darker-gray: #1E242C;
 }
+@media screen and (max-width: 850px) {
+  html {
+      font-size: 12px; /* Smaller base size for rem units on mobile */
+  }
+}
 
 body, html {
   margin: 0;
@@ -44,7 +49,7 @@ code {
 
 .navbar-top {
   background-color: transparent;
-  top: 0;
+  top: 0; 
   right: 0;
   position: fixed;
   z-index: 5;
@@ -232,16 +237,37 @@ code {
                0 0 30px var(--color-glow), /* larger glow */
                0 0 40px var(--color-glow); /* outermost glow */
 
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .skill-list li img {
   width: 65%;
   height: 65%;
   object-fit: cover;
 }
+@media screen and (max-width: 850px) {
+  .skill-list li {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    
+    
+    /* background glow */
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px var(--color-glow), /* smaller glow */
+                 0 0 10px var(--color-glow), /* medium glow */
+                 0 0 20px var(--color-glow), /* larger glow */
+                 0 0 30px var(--color-glow); /* outermost glow */
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
 /* Experience section */
 #experience {
   display: flex;
@@ -301,6 +327,12 @@ align-items: center;
   float: left;
   /*object-fit: contain;*/
   
+}
+@media screen and (max-width: 850px) {
+  .card-left img, .card-right img {
+    width: 50%;
+    object-fit: contain;
+  }
 }
 .card-left img {
   border-top-left-radius: 15px;
@@ -402,9 +434,16 @@ align-items: center;
   width: 60px;
   margin: 1rem auto;
 }
-.contact-prompt {
+.contact-prompt, .contact-directly {
   text-align: center;
   color: var(--color-neon-green-darkish)
+}
+.contact-directly {
+  margin-top: 100px;
+  font-weight: 200;
+}
+.contact-directly span {
+  font-weight: 400;
 }
 
 /* the contact form */

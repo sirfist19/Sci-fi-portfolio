@@ -11,6 +11,7 @@ const Footer = () => {
                 <a href="https://github.com/sirfist19" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faGithub} style={{color: '#39ff14'}} size='2xl'/>
                 </a>
+                
             </li>
         </ul>
         <div className='footer-rights'>

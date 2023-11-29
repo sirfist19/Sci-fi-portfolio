@@ -15,9 +15,13 @@ export const Card = ({props, left}) => {
                     )}
                 </div>
                 <p className="card-description">{description}</p>
-                <a href={link} className="project-link" target="_blank" rel="noopener noreferrer">
-                    View Site
-                </a>
+                {
+                    link &&
+                    <a href={link} className="project-link" target="_blank" rel="noopener noreferrer">
+                        View Site
+                    </a>
+                }
+                
             </div>
         </div>
     )

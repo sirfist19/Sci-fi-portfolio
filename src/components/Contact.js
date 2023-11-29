@@ -67,6 +67,7 @@ const Contact = () => {
               <button className="sumbit-btn">Submit</button>
             </div>
         </form>
+        <h2 className="contact-directly">Or message me directly at <span>aidancini.cs@gmail.com</span></h2>
       </div>
   )
 }

@@ -161,6 +161,16 @@ const Scene = ({overlay_content, scene_type}) => {
     scene.add(lineBase);
 
 };
+const gaussianRandom = () => {
+    let rand = 0;
+
+    for (let i = 0; i < 6; i += 1) {
+        rand += Math.random();
+    }
+
+    // Return a centered and normalized value
+    return (rand / 6) - 0.5;
+}
 
   const drawSpaceScene = (scene) => {
     // grid
@@ -173,7 +183,7 @@ const Scene = ({overlay_content, scene_type}) => {
     )
     scene.add(gridHelper);
 
-    const NUM_MOUNTAINS = 10; // for x
+    const NUM_MOUNTAINS = 15; // for x
     const z_center = -50;
     const z_width = 70;
     const Z_SPACING = 10; // 5
@@ -182,12 +192,23 @@ const Scene = ({overlay_content, scene_type}) => {
 
     const Cone = (x,z) => {
         const z_offset = z - z_center;
-        let HEIGHT = 120/(Math.abs(.07*x)+Math.abs(.1*z_offset)+1);
-         
+        const HEIGHT_FXN1 = 120/(Math.abs(.1*x)+Math.abs(.1*z_offset)+1);
+
+        const MIDDLE_PEAK_HEIGHT = 80 ; //Math.random() * 10;
+        const LEFT_PEAK_HEIGHT = 40 + Math.random() * 20;
+        const RIGHT_PEAK_HEIGHT = 40 + Math.random() * 20;
+        const PEAK_OFFSET = 40;
+        const HEIGHT_FXN2 = (MIDDLE_PEAK_HEIGHT * Math.exp(-1*(x**2) / 700 - z_offset**2 / 980)) 
+        + (LEFT_PEAK_HEIGHT * Math.exp(-1*((x - PEAK_OFFSET)**2) / 2000 - z_offset**2 / 980))
+        + (RIGHT_PEAK_HEIGHT * Math.exp(-1*((x + PEAK_OFFSET)**2) / 2000 - z_offset**2 / 980))
+        + 5;
+        let HEIGHT = HEIGHT_FXN2;// x .07
+
+        //console.log("height", HEIGHT, "position", x, z);
         //const heightBoost = -30/x;
         const segments = Math.floor(Math.random() * 3) + 7;
         
-        const WIDTH = 12;//Math.min(10, Math.abs(.1*x)+Math.abs(.1*z_offset) + 5); //Math.random() * 5 + 10;
+        const WIDTH = 15;//Math.min(10, Math.abs(.1*x)+Math.abs(.1*z_offset) + 5); //Math.random() * 5 + 10;
         const geometry = new THREE.ConeGeometry(WIDTH, HEIGHT, segments); 
         const material = new THREE.MeshBasicMaterial( 
             {color: COLOR_CONE, wireframe: true} );
@@ -212,6 +233,11 @@ const Scene = ({overlay_content, scene_type}) => {
             //drawMountain(scene, i, z);
         }
     }
+    /*for (let i = 0; i < 100; i++) {
+        let x = gaussianRandom() * 300;
+        let z = gaussianRandom() * 300;
+        scene.add(Cone(x, z, z_center));
+    }*/
     
     addLighting(scene);
   };
@@ -272,7 +298,7 @@ const Scene = ({overlay_content, scene_type}) => {
     mountRef.current.appendChild(renderer.domElement); 
 
     if (scene_type === "TITLE") {
-        camera.position.set(0, 2, 100); // left right, up down, in out
+        camera.position.set(0, 2, 140); // left right, up down, in out
         drawSpaceScene(scene); // adds lighting, mountains, and grid
     }
     else if (scene_type === "SKILLS") {

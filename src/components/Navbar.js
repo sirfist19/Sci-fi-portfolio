@@ -1,9 +1,9 @@
 import React from 'react'
 //import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({top}) => {
   return (
-    <div className='navbar'>
+    <div className={top ? 'navbar-top' : 'navbar'}>
         <ul>
             <li>
                 <a className='navlink' href="#about">About</a>

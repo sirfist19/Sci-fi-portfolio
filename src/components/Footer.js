@@ -8,13 +8,9 @@ const Footer = () => {
     <div className='footer'>
         <ul className='social-links'>
             <li>
-            <FontAwesomeIcon icon={faGithub} style={{color: '#39ff14'}} size='2xl'/>
-            </li>
-            <li>
-                <FontAwesomeIcon icon={faInstagram} style={{color: '#39ff14'}} size='2xl'/>
-            </li>
-            <li>
-                <FontAwesomeIcon icon={faXTwitter} style={{color: '#39ff14'}} size='2xl'/>
+                <a href="https://github.com/sirfist19" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faGithub} style={{color: '#39ff14'}} size='2xl'/>
+                </a>
             </li>
         </ul>
         <div className='footer-rights'>
@@ -23,5 +19,10 @@ const Footer = () => {
     </div>
   )
 }
-
+/* <li>
+                <FontAwesomeIcon icon={faInstagram} style={{color: '#39ff14'}} size='2xl'/>
+            </li>
+            <li>
+                <FontAwesomeIcon icon={faXTwitter} style={{color: '#39ff14'}} size='2xl'/>
+            </li>*/
 export default Footer

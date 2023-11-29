@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/Sci-fi-portfolio/static/css/main.3f2b6b9c.css",
-    "main.js": "/Sci-fi-portfolio/static/js/main.e7226819.js",
+    "main.css": "/Sci-fi-portfolio/static/css/main.7abb9239.css",
+    "main.js": "/Sci-fi-portfolio/static/js/main.0e9cc887.js",
     "static/media/glacierPic.jpg": "/Sci-fi-portfolio/static/media/glacierPic.9e4346cf3d01ee2b390a.jpg",
+    "static/media/chess1.png": "/Sci-fi-portfolio/static/media/chess1.d6ac6d3e35cd37528a89.png",
     "static/media/C++_Logo.png": "/Sci-fi-portfolio/static/media/C++_Logo.64f637357bce0ccc8384.png",
+    "static/media/surrenderCore1.png": "/Sci-fi-portfolio/static/media/surrenderCore1.aee5725b840661838e47.png",
+    "static/media/zelda1.jpeg": "/Sci-fi-portfolio/static/media/zelda1.8610457a7a9f58634a11.jpeg",
     "static/media/randomDungeon1.jpeg": "/Sci-fi-portfolio/static/media/randomDungeon1.517e8aa4eff5ad45ef03.jpeg",
     "static/media/mongodb_logo.png": "/Sci-fi-portfolio/static/media/mongodb_logo.bf8042403d8797a7ff1b.png",
     "static/media/nodeExpress.svg": "/Sci-fi-portfolio/static/media/nodeExpress.9c47ce21835741e9d81576a332199279.svg",
     "static/media/Python-Symbol.png": "/Sci-fi-portfolio/static/media/Python-Symbol.212de8d7278260fca353.png",
     "static/media/4-postgres.jpg": "/Sci-fi-portfolio/static/media/4-postgres.1418d07f8e845c6fc862.jpg",
+    "static/media/taskManager1.jpeg": "/Sci-fi-portfolio/static/media/taskManager1.70374b8457e9346252ed.jpeg",
     "static/media/cssLogo.png": "/Sci-fi-portfolio/static/media/cssLogo.02d225c7df0b28341d8d.png",
     "static/media/JavaScript-logo.png": "/Sci-fi-portfolio/static/media/JavaScript-logo.928da83081e073adaff3.png",
     "static/media/react_original_logo.png": "/Sci-fi-portfolio/static/media/react_original_logo.598c274386446bb54ac6.png",
     "static/media/HTML5_Logo_.webp": "/Sci-fi-portfolio/static/media/HTML5_Logo_.c36b266e129366941588.webp",
     "static/media/reactNativeLogo.webp": "/Sci-fi-portfolio/static/media/reactNativeLogo.ea2625f2a2974ba032ae.webp",
     "index.html": "/Sci-fi-portfolio/index.html",
-    "main.3f2b6b9c.css.map": "/Sci-fi-portfolio/static/css/main.3f2b6b9c.css.map",
-    "main.e7226819.js.map": "/Sci-fi-portfolio/static/js/main.e7226819.js.map"
+    "main.7abb9239.css.map": "/Sci-fi-portfolio/static/css/main.7abb9239.css.map",
+    "main.0e9cc887.js.map": "/Sci-fi-portfolio/static/js/main.0e9cc887.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f2b6b9c.css",
-    "static/js/main.e7226819.js"
+    "static/css/main.7abb9239.css",
+    "static/js/main.0e9cc887.js"
   ]
 }

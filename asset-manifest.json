@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/Sci-fi-portfolio/static/css/main.7abb9239.css",
-    "main.js": "/Sci-fi-portfolio/static/js/main.0e9cc887.js",
+    "main.css": "/Sci-fi-portfolio/static/css/main.1a430cd4.css",
+    "main.js": "/Sci-fi-portfolio/static/js/main.425c1f72.js",
     "static/media/glacierPic.jpg": "/Sci-fi-portfolio/static/media/glacierPic.9e4346cf3d01ee2b390a.jpg",
     "static/media/chess1.png": "/Sci-fi-portfolio/static/media/chess1.d6ac6d3e35cd37528a89.png",
+    "static/media/elTacoLlama1.png": "/Sci-fi-portfolio/static/media/elTacoLlama1.775e2af64c7dc98cbe71.png",
+    "static/media/budget1.png": "/Sci-fi-portfolio/static/media/budget1.0cb969fef8708ec68464.png",
     "static/media/C++_Logo.png": "/Sci-fi-portfolio/static/media/C++_Logo.64f637357bce0ccc8384.png",
     "static/media/surrenderCore1.png": "/Sci-fi-portfolio/static/media/surrenderCore1.aee5725b840661838e47.png",
     "static/media/zelda1.jpeg": "/Sci-fi-portfolio/static/media/zelda1.8610457a7a9f58634a11.jpeg",
@@ -19,11 +21,11 @@
     "static/media/HTML5_Logo_.webp": "/Sci-fi-portfolio/static/media/HTML5_Logo_.c36b266e129366941588.webp",
     "static/media/reactNativeLogo.webp": "/Sci-fi-portfolio/static/media/reactNativeLogo.ea2625f2a2974ba032ae.webp",
     "index.html": "/Sci-fi-portfolio/index.html",
-    "main.7abb9239.css.map": "/Sci-fi-portfolio/static/css/main.7abb9239.css.map",
-    "main.0e9cc887.js.map": "/Sci-fi-portfolio/static/js/main.0e9cc887.js.map"
+    "main.1a430cd4.css.map": "/Sci-fi-portfolio/static/css/main.1a430cd4.css.map",
+    "main.425c1f72.js.map": "/Sci-fi-portfolio/static/js/main.425c1f72.js.map"
   },
   "entrypoints": [
-    "static/css/main.7abb9239.css",
-    "static/js/main.0e9cc887.js"
+    "static/css/main.1a430cd4.css",
+    "static/js/main.425c1f72.js"
   ]
 }

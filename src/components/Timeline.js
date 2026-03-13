@@ -1,25 +1,28 @@
 import React from "react"
-import { Chrono } from "react-chrono";
+import { ALL_EXPERIENCE } from "../data/experience";
 
 const Timeline = () => {
-  const items = [
-    {
-    title: "June 2019",
-    cardTitle: "UCLA: Undergrad studying Computer Science",
-    /*url: "http://www.history.com",*/
-    cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-    cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-    media: {
-      type: "IMAGE",
-      source: {
-        url: "http://someurl/image.jpg"
-      }
-    }
-  }, ];
-
   return (
-    <div className="timeline" style={{ width: "500px", height: "400px" }}>
-      <Chrono items={items} mode="VERTICAL_ALTERNATING"/>
+    <div className="timeline" style={{ width: "95%", maxWidth: "800px", margin: "70px auto" }}>
+      <h1>Experience</h1>
+      {Object.values(ALL_EXPERIENCE).map((experience, index) => (
+        <div className="timeline-item">
+          <div className="timeline-content">
+            <img
+              src={experience.image}
+              alt={experience.title}
+              className="timeline-image"
+            />
+            <div className="timeline-text">
+              <h3>{experience.title}</h3>
+              <h4>{experience.role}</h4>
+              <p>{experience.location}</p>
+              <p>{experience.dateRange}</p>
+              <p>{experience.description}</p>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
   )
 }

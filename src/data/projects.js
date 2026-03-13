@@ -8,25 +8,26 @@ import elTacoLlamaFront from "../images/project_pics/elTacoLlama1.png";
 import budgetFront from "../images/project_pics/budget1.png";
 
 export const Categories = {
-    ALL: "All",
-    REACT: "React",
-    CPP: "C++",
-    PYTHON: "Python",
-    UNITY: "Unity"
+        ALL: "All",
+        REACT: "React",
+        CPP: "C++",
+        GO: "Go",
+        PYTHON: "Python",
+        UNITY: "Unity"
 };
 
 const TaskManager = {
-    category: Categories.REACT,
-    image: taskManagerFront,
-    title: "Task Manager Full-Stack Web App ",
-    skills: ["MERN Stack", "Full-stack", "CSS", ],
-    description: `
+        category: Categories.REACT,
+        image: taskManagerFront,
+        title: "Task Manager Full-Stack Web App ",
+        skills: ["MERN Stack", "Full-stack", "CSS",],
+        description: `
     Designed and developed a comprehensive full-stack MERN task management application aimed at boosting users’
 productivity by allowing users to create, customize and organize their tasks.
     `,
-    link: "https://github.com/sirfist19/Task-Manager-App",
-  };
-const BudgetApp = 
+        link: "https://github.com/sirfist19/Task-Manager-App",
+};
+const BudgetApp =
 {
         category: Categories.REACT,
         image: budgetFront,
@@ -34,12 +35,12 @@ const BudgetApp =
         skills: ["React Native", "MERN Stack", "Full-stack"],
         description: `A budgeting app that allows users to efficiently create and track their progress 
         towards budgets. Features advanced data visualization through interactive graphs so users 
-        can pinpoint where they are overspending.`, 
+        can pinpoint where they are overspending.`,
         link: ""
 };
-  
+
 const MexicanRestaurantWebsite = {
-    category: Categories.REACT,
+        category: Categories.REACT,
         image: elTacoLlamaFront,
         title: "Mexican Restaurant Website",
         skills: ["React", "Frontend"],
@@ -47,7 +48,7 @@ const MexicanRestaurantWebsite = {
         View store hours, the menu, locations, and pictures of delicious food!`,
         link: ""
 };
-const RandomizedDungeon = 
+const RandomizedDungeon =
 {
         category: Categories.CPP,
         image: randomDungeonFront,
@@ -56,7 +57,7 @@ const RandomizedDungeon =
         description: "A randomized text dungeon game inspired by text games from the 1970s like Zork.",
         link: "https://github.com/sirfist19/Randomized_Text_Dungeon",
 };
-const SurrenderTheCore = 
+const SurrenderTheCore =
 {
         category: Categories.UNITY,
         image: surrenderCoreFront,
@@ -68,7 +69,7 @@ const SurrenderTheCore =
         link: "https://ldjam.com/events/ludum-dare/48/surrender-the-core-a-roguelike"
 }
 
-const Zelda2D = 
+const Zelda2D =
 {
         category: Categories.PYTHON,
         image: zeldaFront,
@@ -91,12 +92,38 @@ const ChessGame =
         link: "https://github.com/sirfist19/Chess-Clone"
 }
 
+const ChessTreeVisualizer =
+{
+        category: Categories.GO,
+        image: chessFront, // Placeholder reusing chess front
+        title: "Chess Tree Visualizer",
+        skills: ["Go", "PostgreSQL", "React", "Docker"],
+        description: `An interactive tool that visualizes chess opening repertoires as dynamic tree diagrams. 
+    Built with a Go REST API backed by PostgreSQL to generate and query opening trees from PGN data.
+    Integrated the Lichess API for player games and analysis.`,
+        link: ""
+}
+
+const AI_Flashcards =
+{
+        category: Categories.REACT,
+        image: taskManagerFront, // Placeholder reusing task manager front
+        title: "Language Learning AI Flashcard App",
+        skills: ["MERN Stack", "OpenAI API", "TypeScript", "Docker"],
+        description: `An AI-powered flashcard app that generates vocabulary cards from foreign-language texts using an LLM.
+    Cards are rich with context data including example sentences, synonyms, and etymology.
+    Used a Spaced Repetition (SRS) algorithm for efficient review and retention.`,
+        link: ""
+}
+
 export const ALL_PROJECTS = {
-    TaskManager,
-    Zelda2D,
-    RandomizedDungeon,
-    SurrenderTheCore,
-    BudgetApp,
-    MexicanRestaurantWebsite,
-    ChessGame,
+        ChessTreeVisualizer,
+        AI_Flashcards,
+        TaskManager,
+        Zelda2D,
+        RandomizedDungeon,
+        SurrenderTheCore,
+        BudgetApp,
+        MexicanRestaurantWebsite,
+        ChessGame,
 };

@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.465b60b5.css",
-    "main.js": "/static/js/main.49c5eff2.js",
+    "main.css": "/static/css/main.f6c31366.css",
+    "main.js": "/static/js/main.491481ca.js",
     "static/media/glacierPic.jpg": "/static/media/glacierPic.9e4346cf3d01ee2b390a.jpg",
+    "static/media/mountain_goat.png": "/static/media/mountain_goat.9ac5d1644209e283a9e9.png",
     "static/media/chess1.png": "/static/media/chess1.d6ac6d3e35cd37528a89.png",
+    "static/media/ftl_flagship.png": "/static/media/ftl_flagship.3f16f8c2b6580f01e6e9.png",
     "static/media/elTacoLlama1.png": "/static/media/elTacoLlama1.775e2af64c7dc98cbe71.png",
+    "static/media/badlandsSunset.jpg": "/static/media/badlandsSunset.86e132695735d68e5ef7.jpg",
     "static/media/budget1.png": "/static/media/budget1.0cb969fef8708ec68464.png",
+    "static/media/chess_visualizer1.png": "/static/media/chess_visualizer1.d1b75e0e0f76b2332703.png",
+    "static/media/sicilianDragon.png": "/static/media/sicilianDragon.ecf52ed88bd01923b01c.png",
     "static/media/surrenderCore1.png": "/static/media/surrenderCore1.aee5725b840661838e47.png",
     "static/media/zelda1.jpeg": "/static/media/zelda1.8610457a7a9f58634a11.jpeg",
     "static/media/randomDungeon1.jpeg": "/static/media/randomDungeon1.517e8aa4eff5ad45ef03.jpeg",
+    "static/media/operaGame.png": "/static/media/operaGame.7a999d585e9102b01c31.png",
+    "static/media/language_ai_app1.jpg": "/static/media/language_ai_app1.b7c4a3ca084b099231ce.jpg",
     "static/media/uclaLogo.jpg": "/static/media/uclaLogo.1631d9ab7431ff463d3d.jpg",
     "static/media/taskManager1.jpeg": "/static/media/taskManager1.70374b8457e9346252ed.jpeg",
     "index.html": "/index.html",
-    "main.465b60b5.css.map": "/static/css/main.465b60b5.css.map",
-    "main.49c5eff2.js.map": "/static/js/main.49c5eff2.js.map"
+    "main.f6c31366.css.map": "/static/css/main.f6c31366.css.map",
+    "main.491481ca.js.map": "/static/js/main.491481ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.465b60b5.css",
-    "static/js/main.49c5eff2.js"
+    "static/css/main.f6c31366.css",
+    "static/js/main.491481ca.js"
   ]
 }

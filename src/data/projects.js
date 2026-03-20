@@ -6,6 +6,8 @@ import chessFront from "../images/project_pics/chess1.png";
 import zeldaFront from "../images/project_pics/zelda1.jpeg";
 import elTacoLlamaFront from "../images/project_pics/elTacoLlama1.png";
 import budgetFront from "../images/project_pics/budget1.png";
+import chess_visualizer_pic from "../images/project_pics/chess_visualizer1.png";
+import language_ai_app_pic from "../images/project_pics/language_ai_app1.jpg";
 
 export const Categories = {
         ALL: "All",
@@ -95,7 +97,7 @@ const ChessGame =
 const ChessTreeVisualizer =
 {
         category: Categories.GO,
-        image: chessFront, // Placeholder reusing chess front
+        image: chess_visualizer_pic, 
         title: "Chess Tree Visualizer",
         skills: ["Go", "PostgreSQL", "React", "Docker"],
         description: `An interactive tool that visualizes chess opening repertoires as dynamic tree diagrams. 
@@ -107,7 +109,7 @@ const ChessTreeVisualizer =
 const AI_Flashcards =
 {
         category: Categories.REACT,
-        image: taskManagerFront, // Placeholder reusing task manager front
+        image: language_ai_app_pic, 
         title: "Language Learning AI Flashcard App",
         skills: ["MERN Stack", "OpenAI API", "TypeScript", "Docker"],
         description: `An AI-powered flashcard app that generates vocabulary cards from foreign-language texts using an LLM.

@@ -15,7 +15,7 @@ const Footer = () => {
             </li>
         </ul>
         <div className='footer-rights'>
-            <p> ©2025 Designed and Programmed by Aidan Cini.</p>
+            <p> ©2026 Designed and Programmed by Aidan Cini.</p>
         </div>
     </div>
   )
